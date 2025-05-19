@@ -28,6 +28,8 @@ pip install win10toast plyer
 
 ```bash
 git clone https://github.com/yourusername/AutoSortify.git
-cd AutoSortify```
+cd AutoSortify
+```
+
 
 
