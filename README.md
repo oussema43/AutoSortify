@@ -7,33 +7,42 @@
 ## 📌 Features
 
 - ✅ Categorizes and moves files into folders (Images, Documents, Code, etc.)
-- ✅ Creates folders automatically if they don't exist
-- ✅ Handles unknown file types by placing them in an "Others" folder
+- ✅ Automatically creates folders if they don't exist
+- ✅ Moves unknown file types into an "Others" folder
 - ✅ Cross-platform notifications (Windows/macOS/Linux)
-- ✅ Ignores itself and directories during sorting
-- ✅ Error handling for stability
+- ✅ Ignores itself and folders during sorting
+- ✅ Built-in error handling for stability
 
 ---
 
 ## 🛠️ Installation
 
-### 1. Install Required Packages
+### 🔁 Option 1: Run the `.exe` (Windows Only)
 
-```bash
-pip install win10toast plyer
+> ✅ **No installation required!**
 
-```
-
-### 2. Clone or Download the Project
+1. 📥 [Download AutoSortify.exe](https://github.com/oussema43/AutoSortify/releases/latest/download/main.exe)
+2. Move it to the folder you want to organize.
+3. Double-click the file to automatically sort your files.
 
 ---
 
+### 🔧 Option 2: Run from Python (Cross-Platform)
 
+#### 1. Install Required Package
 
 ```bash
-git clone https://github.com/yourusername/AutoSortify.git
+pip install plyer
+
+```
+#### 2. Clone the Repository
+```bash
+git clone https://github.com/oussema43/AutoSortify.git
 cd AutoSortify
 ```
+#### 3. Move main.py to the folder you want to organize 
 
-
-
+#### 4. Run the Script
+```bash
+python -u main.py
+```
