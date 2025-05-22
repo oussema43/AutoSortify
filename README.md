@@ -21,9 +21,9 @@
 
 > ✅ **No installation required!**
 
-1. 📥 [Download AutoSortify.exe]
-2. Move it to the folder you want to organize.
-3. Double-click the file to sort your files automatically.
+1. 📥 [Download or clone the repository](https://github.com/oussema43/AutoSortify)
+2. Move `main.exe` to the folder you want to organize
+3. Double-click it — your files will be sorted automatically!
 
 ---
 
